@@ -1,14 +1,14 @@
-# Driver Fatigue Detection Using EEG Signals
+# 🚗💤 Driver Fatigue Detection Using EEG Signals
 
-## Overview
+## 📋 Overview
 Driver fatigue is a major cause of road accidents worldwide. This project aims to detect driver fatigue using EEG (Electroencephalography) signals and machine learning models. By analyzing EEG data from subjects in different driving states, our system predicts signs of drowsiness and alerts the driver.
 
-## Dataset
+## 📊 Dataset
 - EEG data collected from **twelve healthy subjects** using a **40-channel Neuroscan amplifier**.
 - Data stored in **`.cnt` files** containing continuous EEG signals, timestamps, and metadata.
 - Two states of driving process recorded: **alert (awake) and fatigued (drowsy).**
 
-## Methodology
+## 🔬 Methodology
 1. **Data Preprocessing**
    - Load and process **`.cnt` files**.
    - Filter noise and extract relevant EEG features.
@@ -28,7 +28,7 @@ Driver fatigue is a major cause of road accidents worldwide. This project aims t
    - Real-time classification of EEG signals.
    - Generates an alert when fatigue is detected.
 
-## Installation & Setup
+## ⚙️ Installation & Setup
 ### Prerequisites
 - Python 3.x
 - Required Libraries:
@@ -62,21 +62,21 @@ Driver fatigue is a major cause of road accidents worldwide. This project aims t
    python detect.py
    ```
 
-## Results
+## 📈 Results
 - **Accuracy Achieved**: (To be filled after model evaluation)
 - **Best Performing Model**: (To be determined)
 - **Confusion Matrix & ROC Curves**: Included in `results/` directory.
 
-## Contributors
+## 🤝 Contributors
 - **[Harish J ]** ([@GitHub](https://github.com/harishjanarth)) 
 - **[Aditya Varma]** ([@GitHub](https://github.com/justvarma)) 
 
-## License
+## 📜 License
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
+## 🙏 Acknowledgments
 - References: Research papers on EEG-based fatigue detection.
 
-## Contact
+## 📧 Contact
 For queries, open an issue or reach out at [naveenbijulalmenon@gmail.com , harishjanarth@gmail.com].
 
